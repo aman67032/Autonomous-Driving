@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.obj
+*.exe
+
+# MATLAB temporary files
+*.asv
+*.m~
+slprj/
+*.slxc
+*.autosave
+
+# PowerPoint backups and Office lock files
+*.backup.pptx
+*_BACKUP*.pptx
+*_PRE_*.pptx
+~$*.pptx
+
+# Temporary analysis & scratch scripts
+inspect_*.py
+test_*.py
+merge_*.py
+generate_scene_audios.py
+get_scene_durations.py
+polish_deck.py
+update_presentation.py
+inspect_slide6.py
+inspect_s7_style.py
+arxiv_*.json
+map.osm
+docs/*.py
+docs/test_audio.mp3
+
+# Intermediate audio generation caches (keep repo clean)
+docs/audio_narration/
+docs/audio_narration_5min/
+docs/audio_scenes/
+
+# Debug snapshot frames
+docs/video_snapshots/
+docs/video_snapshots_exact/
+docs/video_snapshots_synced/
+
+# Old duplicate video demos (keep only BharatNav_Master_Synced_Demo.mp4)
+docs/BharatNav_5Min_Master_Demo.mp4
+docs/BharatNav_Simulation_Demo.mp4
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
